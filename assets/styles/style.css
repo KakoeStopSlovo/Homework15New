@@ -1,0 +1,21 @@
+p + p {
+    color: green;
+}
+
+input + p {
+    color: gray;
+}
+
+/* ---------------------- */
+
+input + p + p {
+    display: none;
+}
+
+input:valid + p {
+    display: none;
+}
+
+input:valid + p + p {
+    display: block;
+}
